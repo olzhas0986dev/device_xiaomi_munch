@@ -7,6 +7,9 @@
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+# Inherit from global firmware
+-include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
+
 DEVICE_PATH := device/xiaomi/munch
 
 # Board
