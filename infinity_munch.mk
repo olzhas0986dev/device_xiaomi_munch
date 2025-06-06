@@ -14,8 +14,8 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-INFINITY_BUILD_TYPE := OFFICIAL
-INFINITY_MAINTAINER := "Rik"
+INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := "olzhas0986"
 TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
 USE_MOTO_CALCULATOR := true
