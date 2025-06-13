@@ -14,21 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-# Rising-Revived build flags
-RISING_MAINTAINER="Rik"
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Kona" \
-    RisingMaintainer="Rik"
-
-RISING_MAINTAINER := Rik
-TARGET_ENABLE_BLUR := true
-PRODUCT_NO_CAMERA := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
-
-WITH_GMS := false
-WITH_MICROG := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
-
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
