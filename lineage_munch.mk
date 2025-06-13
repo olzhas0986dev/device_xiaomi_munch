@@ -14,13 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-MISTOS_MAINTAINER="olzhas0986"
-TARGET_ENABLE_BLUR := true
-PRODUCT_NO_CAMERA := true
-WITH_GMS := true
-TARGET_HAS_UDFPS := false
-EXTRA_UDFPS_ANIMATIONS := false
-
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
