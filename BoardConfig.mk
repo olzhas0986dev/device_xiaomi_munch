@@ -22,8 +22,6 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_munch
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/munch.config
 
 # Leica Camera
 TARGET_INCLUDES_MIUI_CAMERA := true
