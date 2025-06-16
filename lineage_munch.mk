@@ -15,7 +15,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
 # Evolution-X build flags
-WITH_GMS := false
 TARGET_HAS_UDFPS := false
 
 PRODUCT_NAME := lineage_munch
