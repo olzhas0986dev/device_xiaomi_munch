@@ -15,8 +15,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
 # EvoX
-EVO_BUILD_TYPE := Unofficial
-WITH_GMS := true
 TARGET_DISABLE_EPPE := true
 
 PRODUCT_NAME := lineage_munch
